@@ -64,6 +64,11 @@
                     <exclude>**/pom.xml</exclude>
                 </excludes>
             </resource>
+            <!-- added thumbnail -->
+            <resource>
+                <directory>${basedir}/src/main/content/META-INF/vault/definition</directory>
+                <targetPath>../vault-work/META-INF/vault/definition</targetPath>
+            </resource>
         </resources>
         <plugins>
             <!--
@@ -92,13 +97,9 @@
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
                     <group>aem-guides/wknd</group>
-                    <embeddeds>
-                        <embedded>
-                            <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>aem-guides-wknd.core</artifactId>
-                            <target>/apps/wknd/install</target>
-                        </embedded>
-                    </embeddeds>
+                    <properties>
+                        <acHandling>merge_preserve</acHandling>
+                    </properties>
                 </configuration>
             </plugin>
         </plugins>
