@@ -17,7 +17,7 @@
                 <tablet
                     jcr:primaryType="nt:unstructured"
                     title="Tablet"
-                    width="{Long}1200"/>
+                    width="{Long}768"/>
             </breakpoints>
         </cq:responsive>
     </jcr:content>
