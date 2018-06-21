@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2018-06-20T13:50:42.865-06:00"
+        cq:lastModified="{Date}2018-06-21T10:33:25.036-06:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
@@ -12,12 +12,19 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <header
-                jcr:created="{Date}2018-06-19T08:55:32.410-06:00"
+                jcr:created="{Date}2018-06-21T10:33:25.034-06:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-06-19T08:55:32.410-06:00"
+                jcr:lastModified="{Date}2018-06-21T10:33:25.034-06:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/structure/header"/>
+                sling:resourceType="wknd/components/structure/header">
+                <navigation
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/structure/navigation"/>
+                <search
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/structure/search"/>
+            </header>
             <responsivegrid
                 jcr:created="{Date}2018-06-19T08:55:42.940-06:00"
                 jcr:createdBy="admin"

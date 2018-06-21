@@ -252,7 +252,43 @@
                         structureDepth="1">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1529524001539>
+                    <policy_600822063157045
+                        jcr:lastModified="{Date}2018-06-21T10:33:56.529-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_600822063157045>
                 </navigation>
+                <header jcr:primaryType="nt:unstructured">
+                    <policy_1529598153904
+                        jcr:lastModified="{Date}2018-06-21T10:33:40.698-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        rootPath="/content/wknd/en">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1529598153904>
+                </header>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1529598609685
+                        jcr:lastModified="{Date}2018-06-21T10:34:12.679-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WNKD Search - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        resultsSize="10"
+                        searchRoot="/content/wknd/en"
+                        searchTermMinimumLength="3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1529598609685>
+                </search>
             </structure>
         </components>
     </wknd>
