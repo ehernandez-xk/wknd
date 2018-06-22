@@ -20,7 +20,7 @@ To build all the modules run in the project root directory the following command
 
 If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
-    mvn clean install -PautoInstallPackage
+    mvn clean install -PautoInstallPackage -Padobe-public
     
 Or to deploy it to a publish instance, run
 
@@ -32,7 +32,14 @@ Or alternatively
 
 Or to deploy only the bundle to the author, run
 
-    mvn clean install -PautoInstallBundle
+    mvn clean install -PautoInstallBundle -Padobe-public
+
+## Example Content
+
+The repository comes with example content (WKND site)
+
+http://localhost:4502/content/wknd/en.html?wcmmode=disabled
+
 
 ## Testing
 
@@ -55,4 +62,4 @@ There are three levels of testing contained in the project:
 
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
-    http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+    http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html or use -Padobe-public profile instead
