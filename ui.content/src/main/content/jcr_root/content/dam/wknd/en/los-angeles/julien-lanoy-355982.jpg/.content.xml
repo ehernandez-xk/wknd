@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="093308c4-6843-4eba-b705-9b6bbf993b93">
+    <jcr:content
+        cq:name="julien-lanoy-355982.jpg"
+        cq:parentPath="/content/dam/wknd/en/los-angeles"
+        dam:assetState="processed"
+        dam:relativePath="wknd/en/los-angeles/julien-lanoy-355982.jpg"
+        jcr:lastModified="{Date}2018-06-22T10:19:10.736-06:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-04-09T13:58:47.959-04:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}55.55555725097656"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}83.33333587646484"
+            dam:Progressive="no"
+            dam:sha1="cf187835ccd7f567ae8a5b79ffb957abf51f1dbe"
+            dam:size="{Long}3506804"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-02-27T12:45:08.829-05:00"
+            jcr:lastModified="{Date}2018-06-22T10:19:08.556-06:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}4000"
+            tiff:ImageWidth="{Long}6000"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
