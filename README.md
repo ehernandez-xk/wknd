@@ -1,6 +1,6 @@
-# Sample AEM project template
+# wknd
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html
 
 ## Modules
 
